@@ -24,7 +24,7 @@ MODELS = [
     "shvit_s1_progressive",
 ]
 
-RESOLUTION = 128
+RESOLUTION = 224
 BATCH_SIZE = 64
 WARMUP_RUNS = 20
 TIMED_RUNS = 100
