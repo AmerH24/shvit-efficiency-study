@@ -5,6 +5,15 @@ Absolute throughput depends on hardware. The meaningful comparison in
 this study is the relative throughput obtained under the same device,
 resolution, batch size, and software environment.
 """
+import os
+import sys
+
+PROJECT_ROOT = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..")
+)
+
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
 import csv
 import os
